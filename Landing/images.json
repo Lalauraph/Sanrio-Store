@@ -43,6 +43,28 @@
     {
       "id": 11,
       "url": "https://i.pinimg.com/564x/22/08/cf/2208cf77222f8292e6e539a56cf327db.jpg"
+    },
+    {
+      "id": 12,
+      "url": "https://i.pinimg.com/564x/22/08/cf/2208cf77222f8292e6e539a56cf327db.jpg"
+    },
+    {
+      "id": 13,
+      "url": "https://i.pinimg.com/564x/22/08/cf/2208cf77222f8292e6e539a56cf327db.jpg"
+    }
+  ],
+
+
+  "team":[
+    {
+      "name": "Laura Palacio",
+      "role": "",
+      "url": ""
+    },
+    {
+      "name": "Maria José Rodriguez",
+      "role": "",
+      "url": ""
     }
   ]
 }
