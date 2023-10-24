@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Work+Sans:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="logo">
+        <div class="logo__img">
+            <img src="./fotos/logo png.png" alt="">
+        </div>
+    </section>
+    <section class="container1">
+        <div class="fondo"></div>
+    </section>
+    <section class="container2">
+        <!-- <div class="fondo"></div> -->
+        <div class="caja">
+            <div class="caja__imagen"></div>
+            <div class="caja__texto">
+                <form class="register" action="../main page/main.html" method="get">
+                    <div class="texto__inicio">
+                        <h1>Create an account</h1>
+                        <h4>Create your account, it takes less than a minute! <br>
+                            If you already have an account <a href="#">Log In</a></h4>
+                    </div>
+                    <div class="caja__inputbox">
+                        <label for="username">Name</label>
+                        <input class="inputbox__input" type="text" name="username" required
+                            placeholder="Write your username" />
+                    </div>
+                    <div class="caja__inputbox">
+                        <label for="email">E-mail Address</label>
+                        <input class="inputbox__input" type="email" name="email" required
+                            placeholder="examples@gmail.com" />
+                    </div>
+                    <div class="caja__inputbox">
+                        <label for="password">Password</label>
+                        <input class="inputbox__input" type="password" name="password" required
+                            placeholder="Create your password" />
+                    </div>
+                    <div class="register__submit"><a href="#">
+
+                            <button type="submit" class="submit--btn">
+                                Start now!
+                            </button>
+                        </a>
+                    </div>
+                </form>
+                <div class="texto__final">
+                    <p>Or try login with <a href="#">social media</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
