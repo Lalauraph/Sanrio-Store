@@ -40,7 +40,7 @@ export class Team {
 }
 
 export const obtenerUrl = async () => {
-const response = await fetch ("https://raw.githubusercontent.com/Lalauraph/Sanrio-Store/main/Landing/images.json");
+const response = await fetch ("https://raw.githubusercontent.com/Lalauraph/Sanrio-Store/main/data.json");
 const data = response.json();
 return data;
 }
