@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body {
+  background-color: #8DD4FE;
+  background-size: cover;
+}
+
+
+
+
+.logo-image-container {
+  padding: 2rem;
+}
+
+.log-in__form-container {
+  
+  height: 400px;
+  width: 620px;
+  background-color: #58ABDA;
+  border-radius: 30px;
+  position: absolute;
+  top: 377px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 3px 5px 0px #636363;
+}
+
+.log-in__title {
+  font-family: 'Mochiy Pop One', sans-serif;
+  color: #ffe9f3;
+  font-size: 2.6rem;
+  font-weight: 500;
+  padding-top: 1.6rem;
+}
+
+
+.log-in__image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -7rem;
+}
+
+.barra-inferior {
+  background-color: #8DD4FE;
+  height: 500px;
+}
+
+.log-in_information {
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 229, 242);
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  padding-bottom: .8rem;
+  justify-content: center;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF78B5;
+  border-radius: 15px;
+  padding: .6rem 2rem ;
+  color: white;
+  border: 0px;
+  box-shadow: 0px 1px 3px 1px #636363;
+}
+
+.log-in__form-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+::placeholder {
+  color: white;
+  opacity: .8;
+}
+
+.log-in_container-password {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0.3rem;
+}
+
+.password {
+  color: #C9E8FF;
+}
+
+.remember-my {
+  color: #C9E8FF;
+  font-size: .8rem;
+}
+
+.log-in_forgot-password {
+  text-decoration: none;
+  color: #223b5d;
+}
+
+.log-in_email-address {
+  color: #C9E8FF;
+  margin-top: 0.2rem;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-weight: 100;
+  padding: 0.1rem;
+}
+
+.log-in__options-checkbox{
+  display: flex;
+  border-radius: 50%;
+  flex-direction: row;
+  width: 180px;
+  justify-content: space-between;
+}
+
+.log-in__options {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+  justify-content: space-between;
+  margin-top: 0.8rem;
+}
+
+
+.log-in__form-button {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  gap: .8rem;
+  position: relative;
+  left: 80px;
+  padding: .4rem;
+}
+
+
+
+.log-in__google {
+    background-color: #ffe9f3;
+    color: rgb(89, 150, 214);
+    border-radius: 15px;
+    padding: .3rem 1rem;
+    border: none;
+    box-shadow: 0px 1px 3px 1px #636363;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'work sans', sans-serif;
+    font-size: .9rem;
+    display: flex;
+
+    transition-duration: 0.3s;
+
+}
+
+.sign-in {
+  background-color: #f1de71;
+  color: rgb(132, 125, 91);
+  border-radius: 15px;
+  padding: .3rem 1rem;
+  border: none;
+  box-shadow: 0px 1px 3px 1px #636363;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.3s;
+
+}
+
+.log-in__google:hover,
+.sign-in:hover {
+    background-color:#FF4D9B ;
+}

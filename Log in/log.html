@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanrio Log In</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,400&display=swap"
+    rel="stylesheet">
+
+<body>
+
+    <section class="logo">
+
+
+        <div class="logo-image-container"><img
+                src="https://www.sanrio.com/cdn/shop/files/ecomm_Sanrio_LOGO_CORE_600x210px_1000x.png?v=1672352592"
+                height="50">
+        </div>
+
+    </section>
+
+    <section class="log-in">
+        <div class="log-in__image-container">
+            <div class="log-in__character-image">
+                <img src="https://d39vqfq6hb7tje.cloudfront.net/eyJidWNrZXQiOiJlbXVuLXVtYnJhY28iLCJrZXkiOiJtZWRpYS1lbmNzMTQ2L21lZGlhLzMwMzQvc2FucmlvLWNoYXJhY3Rlci1ncm91cC0xMTgweDY3MC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIn19fQ==?6448=/media/3034/sanrio-character-group-1180x670.jpeg" height="400">
+            </div>
+    
+            <div class="log-in__form-container">
+                <h1 class="log-in__title">Welcome back!</h1>
+                <h5 class="log-in_information">Please enter your Login information</h5>
+    
+                <form action="../main page/main.html" method="get">
+                    <div class="log-in__form-input">
+                        <label for="email" class="log-in_email-address">Email address</label>
+                        <input id="email" class="log-in_email_form-input" name="email" type="email" placeholder="example@gmail.com" autofocus required>
+                    </div>
+    
+                    <div class="log-in__form-input">
+                        <label for="password" class="password">Password</label>
+                        <input id="password" class="password-input" type="password" name="password" placeholder="Enter your password" required>
+                    </div>
+    
+                    <div class="log-in__options">
+                        <div class="log-in__options-checkbox">
+                            <input type="checkbox" id="remember-password">
+                            <label for="remember-password" class="remember-my">Remember my password</label>
+                        </div>
+                        <a href="#" class="log-in_forgot-password">Forgot password?</a>
+                    </div>
+    
+                    <div class="log-in__form-button">
+                        <button type="submit" class="log-in__google">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png" height="15">
+                            Sign in with Google
+                        </button>
+                        <button type="submit" class="sign-in">Sign in</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="barra-inferior"></div>
+    </footer>
+
+
+
+
+
+</body>
