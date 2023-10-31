@@ -1,0 +1,388 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.fondo {
+
+    height: 20.0625rem;
+    flex-shrink: 0;
+    background: #C4E5FF;
+}
+
+.characters {
+    position: relative;
+    height: 11.4375rem;
+    flex-shrink: 0;
+    background: #FFC9E0;
+    box-shadow: 0px 4px 4px 0px rgba(159, 132, 132, 0.25);
+    z-index: 10;
+    top: -180px;
+}
+
+.characters .characters__title {
+    width: 34.6885rem;
+    height: 14.1875rem;
+    flex-shrink: 0;
+    border-radius: 5.375rem;
+    background: #FFC9DF;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 450px;
+    top: -100px;
+
+}
+
+.characters__title h1 {
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: #F55196;
+    font-size: 2.1rem;
+    font-weight: 500;
+    position: relative;
+    top: -60px;
+}
+
+
+.characters__img {
+    margin-left: 5.8rem;
+    height: 160px;
+    width: 160px;
+    position:relative;
+    top: -200px;
+
+    display: flex;
+    z-index: 40;
+
+}
+
+.characters__img ul {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.characters__img img {
+    height: 150px;
+    width: 160px;
+    opacity: .7;
+
+
+}
+
+li:hover img {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    opacity: 10;
+    z-index: 100;
+
+}
+
+.popup {
+    width: 220px;
+    border-radius: 30px;
+    height: 380px;
+    display: none;
+    position: relative;
+ top: -190px;
+    left: 65%;
+    transform: translateX(-50%);
+    background-color: rgba(156, 108, 132, 0.711);
+    padding: .7rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+
+
+li:hover .popup {
+    display: block;
+    transition: transform 0.6s ease;
+    opacity: .8;
+    z-index: 2;
+
+}
+
+li .popup button {
+    border: none;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: .35rem;
+    cursor: pointer;
+}
+
+li .popup button:focus {
+    background-color: rgb(245, 16, 138);
+}
+
+li .popup button:focus i {
+    color: #ffffff;
+}
+
+li .popup__txt {
+    display: flex;
+    flex-direction: column;
+    padding-top: 11rem;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+li .popup__txt h1 {
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: #ffffff;
+    font-weight: 450;
+}
+
+li .popup__txt p {
+    color: #481f30;
+    padding-top: .4rem;
+    font-weight: 600;
+}
+
+/* prueba  */
+
+.popup--hellokitty {
+    position: absolute;
+    left: 500px;
+}
+
+.characters__circulo {
+
+    position: relative;
+    display: flex;
+
+    width: 60vh;
+    height: 4.125rem;
+
+    filter: drop-shadow(2px 11px 2px rgba(120, 120, 123, 0.327));
+    z-index: 2;
+    top: -240px;
+}
+
+.options {
+    height: 170px;
+    width: 60%;
+    position: relative;
+    display: flex;
+    z-index: 1;
+    top: -170px;
+    left: -50px;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    gap: 1.3rem
+     
+}
+
+.options h1, a {
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+box-sizing: border-box;
+    font-weight: 500;
+ 
+}
+
+.options__cuadrado {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    padding: .7rem;
+}
+
+.options__cuadrado--amarillo {
+    background: #fcf598;
+    cursor: pointer;
+}
+
+.options__cuadrado--rosado {
+    background: #fd7eb3;
+}
+
+.options__cuadrado--azul {
+    background: #7ec6fd;
+
+}
+
+.options__cuadrado--rosadito {
+    background: #FFDAEB;
+    cursor: pointer;
+}
+
+.abajo {
+    display: flex;
+    flex-direction: row;
+}
+
+.opinion {
+
+    position: absolute;
+    left: 920px;
+    width: 27%;
+
+}
+
+.opinion__texto {
+    margin-right: 1.3rem;
+    font-weight: 600;
+    color: #8d9196;
+}
+
+.navbar {
+    /* position: fixed; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    z-index: 100;
+
+
+}
+
+.navbar-inicio {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: -320px;
+}
+
+.navbar-final {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    left: 330px;
+}
+
+nav {
+    width: 100%;
+
+    background-color: #F6EC62;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 2px 2px 6px 2px #9aa2b1;
+    box-sizing: border-box;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+
+}
+
+
+nav ul li a {
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: #0066B3;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav form {
+    display: flex;
+    border: none;
+
+
+}
+
+nav input[type="text"] {
+    border: none;
+    height: 15px;
+    width: 280px;
+    border-radius: 20px;
+    padding: .75rem;
+    font-size: .8rem;
+    background-color: #f4f0bb;
+}
+
+nav button[type="submit"] {
+    background-color: transparent;
+    border: none;
+    color: #0066B3;
+    margin-left: -1.9rem;
+}
+
+i {
+    font-size: 1.5rem;
+}
+
+
+.opiniones h2 {
+    color: #77b6e7;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-weight: 500;
+    padding-bottom: .3rem;
+}
+
+.opiniones__contenedor {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .opinion {
+    display: none;
+  }
+  
+  .opinion:first-of-type {
+    display: block;
+  }
+  
+  .opinion__texto p {
+    font-style: italic;
+    margin: 0;
+  }
+  
+  .opiniones__botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+  
+  }
+  
+  .opiniones__boton {
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    background-color: rgb(171, 220, 246);
+    margin: 0 0.5rem;
+    cursor: pointer;
+  }
+  
+  .opinion-radio {
+    display: none;
+  }
+  
+  .opinion-radio:checked ~ .opiniones__boton {
+    background-color: pink;
+  }
