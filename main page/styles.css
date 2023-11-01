@@ -23,6 +23,16 @@ body {
     background: #C4E5FF;
 }
 
+/* #characters_container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    height: 250px;
+    width: 100%;
+    margin-top: -120px;
+    white-space: nowrap; /* Evita que los elementos se envuelvan }*/
+  
+
 .characters {
     position: relative;
     height: 11.4375rem;
@@ -31,6 +41,7 @@ body {
     box-shadow: 0px 4px 4px 0px rgba(159, 132, 132, 0.25);
     z-index: 10;
     top: -180px;
+ 
 }
 
 .characters .characters__title {
@@ -60,29 +71,35 @@ body {
 
 .characters__img {
     margin-left: 5.8rem;
-    height: 160px;
-    width: 160px;
+    height: 150px;
+    width: 90%;
     position:relative;
-    top: -200px;
-
+    top: -210px;
     display: flex;
     z-index: 40;
+    
+}
 
+#characters_container::-webkit-scrollbar {
+    display: none;
 }
 
 .characters__img ul {
+    overflow-x: scroll;
+   height: 400px;
+    
     display: flex;
     flex-direction: row;
-
-
+    
+    
 }
 
 .characters__img img {
     height: 150px;
     width: 160px;
     opacity: .7;
-
-
+    
+    
 }
 
 li:hover img {
@@ -90,13 +107,15 @@ li:hover img {
     transition: transform 0.3s ease;
     opacity: 10;
     z-index: 100;
-
+    
 }
 
 .popup {
+    
+ 
     width: 220px;
     border-radius: 30px;
-    height: 380px;
+    height: 400px;
     display: none;
     position: relative;
  top: -190px;
@@ -112,11 +131,12 @@ li:hover img {
 
 
 li:hover .popup {
+    
     display: block;
     transition: transform 0.6s ease;
     opacity: .8;
     z-index: 2;
-
+    
 }
 
 li .popup button {
@@ -125,6 +145,7 @@ li .popup button {
     background-color: #ffffff;
     padding: .35rem;
     cursor: pointer;
+
 }
 
 li .popup button:focus {
@@ -142,7 +163,7 @@ li .popup__txt {
     justify-content: center;
     align-items: center;
     color: #ffffff;
-
+    
 }
 
 li .popup__txt h1 {
@@ -159,10 +180,10 @@ li .popup__txt p {
 
 /* prueba  */
 
-.popup--hellokitty {
+/* .popup--hellokitty {
     position: absolute;
     left: 500px;
-}
+} */
 
 .characters__circulo {
 

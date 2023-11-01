@@ -14,6 +14,8 @@ console.log(personajes);
         contenedor.appendChild(personajeObj.render());
        
        console.log(personajeObj);
+       
+    //    contenedor.style.overflowX = "auto";
 
     } 
 
