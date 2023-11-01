@@ -72,52 +72,59 @@
     {
       "name":"My Melody",
       "description": "My Melody loves to bake cookies with her mom! And also, she plays the flute. Her cutepink hood was handmade!",
-      "image": "./fotos/Nueva carpeta/mymelody.png"
+      "image": "./fotos/Nueva carpeta/mymelody.png",
+      "fav": false
     },
 
     {
       "name":"Hello Kitty",
       "description": "Hello Kitty was born in the suburbs of London. Her hobbies include baking cookies and making new friends. As she always says, you can never have too many friends!",
-      "image": "./fotos/Nueva carpeta/hellokitty.png"
+      "image": "./fotos/Nueva carpeta/hellokitty.png",
+      "fav": false
     },
 
     {
       "name":"Kuromy",
       "description": "Kuromi keeps a secret diary and loves romance novels! Her favourite color is blackand she is the leader of a biker band.",
-      "image": "./fotos/Nueva carpeta/kuromi.png"
+      "image": "./fotos/Nueva carpeta/kuromi.png",
+      "fav": false
     },
     
     {
       "name":"cinammoroll",
       "description": "Cinnammoroll is actually a chubby dog! He loves soft and warm cinnamon rolls and has looong ears that help him fly.",
-      "image": "./fotos/Nueva carpeta/cinammoroll.png"
+      "image": "./fotos/Nueva carpeta/cinammoroll.png",
+      "fav": false
     },
 
     {
       "name":"My Melody",
       "description": "My Melody loves to bake cookies with her mom! And also, she plays the flute. Her cutepink hood was handmade!",
-      "image": "./fotos/Nueva carpeta/mymelody.png"
+      "image": "./fotos/Nueva carpeta/mymelody.png",
+      "fav": false
     },
 
     {
       "name":"Keroppi",
       "description": "Keroppi is a profesional trumpet player, who also enjoys baseball and spending time with his family. He's always with a smile in his face!",
-      "image": "./fotos/Nueva carpeta/kiropi.png"
+      "image": "./fotos/Nueva carpeta/kiropi.png",
+      "fav": false
     },
 
     {
       "name":"Pochacco",
       "description": "Pochacco's favourite icecream is banana flavoured! He loves when its spring so he can skateboard all day, sadly he's a little dumb.",
-      "image": "./fotos/Nueva carpeta/pochacco.png"
+      "image": "./fotos/Nueva carpeta/pochacco.png",
+      "fav": false
     },
 
     {
       "name":"Pompompurin",
       "description": "Pompompurin loves pudin, in all ways. He loves the phrase Let's go out! but hatesStay. Friends with anyone.",
-      "image": "./fotos/Nueva carpeta/pompompurin.png"
+      "image": "./fotos/Nueva carpeta/pompompurin.png",
+      "fav": false
     }
-
-
+    
   ]
 
 }
