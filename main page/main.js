@@ -18,6 +18,7 @@ console.log(personajes);
     //    contenedor.style.overflowX = "auto";
 
     } 
+    
 
 }
 window.onload = render;
