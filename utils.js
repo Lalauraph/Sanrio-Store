@@ -33,15 +33,16 @@ export class Team {
     render() {
 
       const div = document.createElement("div");
-      /* div.classList.add(); */
+      div.classList.add("card");
 
       const image = document.createElement("img");
-      
-     /*  image.classList.add("img-array") */
+      image.classList.add("card__img");
+
       const nombre = document.createElement("h2");
-      nombre.classList.add();
+     nombre.classList.add("card__title");
       const cargo = document.createElement("p");
-      cargo.classList.add();
+      cargo.classList.add("card__subtitle");
+
 
       image.src = this.url;
       nombre.textContent =this.name;
