@@ -93,6 +93,7 @@ export class Personaje {
     #renderContent(){
         const div = document.createElement("div");
         div.classList.add("popup")
+      
 
         const button = document.createElement("button");
         const icon = document.createElement("i");
