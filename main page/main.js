@@ -1,4 +1,4 @@
-import {obtenerUrl,Personaje} from "../utils.js";
+import {obtenerUrl,Personaje, Opinion} from "../utils.js";
 
 const render = async () => {
    
@@ -14,11 +14,15 @@ console.log(personajes);
         contenedor.appendChild(personajeObj.render());
        
        console.log(personajeObj);
-       
-    //    contenedor.style.overflowX = "auto";
 
-    } 
+    }
     
+    
+    //    contenedor.style.overflowX = "auto";
+    
+    const opiniones = document.querySelector('.opiniones__contenedor');
+ 
+
 
 }
 window.onload = render;

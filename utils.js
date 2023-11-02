@@ -127,6 +127,20 @@ export class Personaje {
 
 }
 
+export class Opinion {
+ 
+  texto="";  
+  autor="";
+  
+
+  
+    constructor( texto, autor) {
+        this.texto = texto;
+        this.autor = autor;
+      
+      }
+}
+
 
 export const obtenerUrl = async () => {
 const response = await fetch ("https://raw.githubusercontent.com/Lalauraph/Sanrio-Store/main/data.json");
