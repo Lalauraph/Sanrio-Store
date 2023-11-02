@@ -32,6 +32,7 @@ export class Team {
   
     render() {
 
+
       const div = document.createElement("div");
       div.classList.add("card");
 
