@@ -53,9 +53,7 @@
       "url": "https://i.pinimg.com/564x/c2/48/c7/c248c7db28babbca31a74fe618788e8e.jpg"
     }
   ],
-
-
-  "team":[
+  "team": [
     {
       "name": "Laura Palacio",
       "role": "Creator",
@@ -67,106 +65,98 @@
       "url": "./images/foto-majo.jpeg"
     }
   ],
-
-  "personajes":[
+  "personajes": [
     {
-      "name":"My Melody",
+      "name": "My Melody",
       "description": "My Melody loves to bake cookies with her mom! And also, she plays the flute. Her cutepink hood was handmade!",
       "image": "./fotos/Nueva carpeta/mymelody.png",
       "fav": false
     },
-
     {
-      "name":"Hello Kitty",
+      "name": "Hello Kitty",
       "description": "Hello Kitty was born in the suburbs of London. Her hobbies include baking cookies and making new friends. As she always says, you can never have too many friends!",
       "image": "./fotos/Nueva carpeta/hellokitty.png",
       "fav": false
     },
-
     {
-      "name":"Kuromy",
+      "name": "Kuromy",
       "description": "Kuromi keeps a secret diary and loves romance novels! Her favourite color is blackand she is the leader of a biker band.",
       "image": "./fotos/Nueva carpeta/kuromi.png",
       "fav": false
     },
-    
     {
-      "name":"cinammoroll",
+      "name": "cinammoroll",
       "description": "Cinnammoroll is actually a chubby dog! He loves soft and warm cinnamon rolls and has looong ears that help him fly.",
       "image": "./fotos/Nueva carpeta/cinammoroll.png",
       "fav": false
     },
-
     {
-      "name":"Little Twin",
+      "name": "Little Twin",
       "description": "Kiki, and Lala. They love staying in clouds and stars! Very adventurous and very curious. Love a good chat.",
       "image": "./fotos/Nueva carpeta/twinstars.png",
       "fav": false
     },
-
     {
-      "name":"Keroppi",
+      "name": "Keroppi",
       "description": "Keroppi is a profesional trumpet player, who also enjoys baseball and spending time with his family. He's always with a smile in his face!",
       "image": "./fotos/Nueva carpeta/kiropi.png",
       "fav": false
     },
-
     {
-      "name":"Pochacco",
+      "name": "Pochacco",
       "description": "Pochacco's favourite icecream is banana flavoured! He loves when its spring so he can skateboard all day, sadly he's a little dumb.",
       "image": "./fotos/Nueva carpeta/pochacco.png",
       "fav": false
     },
-
     {
-      "name":"Pompompurin",
+      "name": "Pompompurin",
       "description": "Pompompurin loves pudin, in all ways. He loves the phrase Let's go out! but hatesStay. Friends with anyone.",
       "image": "./fotos/Nueva carpeta/pompompurin.png",
       "fav": false
     },
-    
     {
-      "name":"Tuxedosam",
+      "name": "Tuxedosam",
       "description": "Tuxedosam is a Sanrio character known for his dapper appearance and love for all things stylish, enjoys collecting bowties.",
       "image": "./fotos/Nueva carpeta/tuxedosam (1).png",
       "fav": false
     },
     {
-      "name":"Shirokuma",
+      "name": "Shirokuma",
       "description": "Based on the idea of finding comfort in the small corners of everyday life, and dislikes cold.",
       "image": "./fotos/Nueva carpeta/sumikkogurashi.png",
       "fav": false
     },
     {
-      "name":"Pandapple",
+      "name": "Pandapple",
       "description": "He has a round, apple-shaped head with a panda's face and ears. As he says, an apple a day keeps the doctor away.",
       "image": "./fotos/Nueva carpeta/pandapple.png",
       "fav": false
     },
     {
-      "name":"Gudetama",
+      "name": "Gudetama",
       "description": "He is an anthropomorphic egg yolk with a round head and a small, white shell, always lacking energy.",
       "image": "./fotos/Nueva carpeta/guatama.png",
       "fav": false
     },
     {
-      "name":"Aggretsuko",
+      "name": "Aggretsuko",
       "description": "She is a red panda who works in an office job and has a secret passion for heavy metal karaoke.",
       "image": "./fotos/Nueva carpeta/aggretsuko.png",
       "fav": false
     },
     {
-      "name":"Hangyodon",
+      "name": "Hangyodon",
       "description": "known for his unique appearance, a fish with legs and toothy grin. Hangyodon is often portrayed as mischievous and enjoys making people laugh.",
       "image": "./fotos/Nueva carpeta/hangyodon.png",
       "fav": false
     },
     {
-      "name":"Dear Daniel",
+      "name": "Dear Daniel",
       "description": "Hello Kitty's childhood friend and love interest. Dear Daniel enjoys playing guitar, drawing, and spending time with his friend.",
       "image": "./fotos/Nueva carpeta/dear daniel.png",
       "fav": false
     }
+    
     
   ]
 
