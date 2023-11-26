@@ -63,11 +63,12 @@ export class Personaje {
   name="";
   description="";  
   image="";
-
-  constructor( name, description, image) {
+fav = false;
+  constructor(name, description, image, fav) {
       this.name = name;
       this.description = description;
       this.image = image;
+      this.fav = fav;
     }
   
     
@@ -133,4 +134,61 @@ const response = await fetch ("https://raw.githubusercontent.com/Lalauraph/Sanri
 const data = response.json();
 console.log (data);
 return data;
+}
+const obtenerUsuarios = () => {
+  const usuarios = localStorage.getItem("usuarios");
+
+  if(usuarios === null) {
+      return [];
+  }
+
+  return JSON.parse(usuarios);
+}
+
+export const usuarioExiste = (email) => {
+  const usuarios = obtenerUsuarios();
+
+  for (const usuario of usuarios) {
+      if(usuario.email === email) {
+          return true;
+      }
+  }
+
+  return false;
+}
+
+export const registrarUsuario = (name, email, password) => {
+  const usuarios = obtenerUsuarios();
+
+  const usuario = {
+      name: name,
+      email: email,
+      password: password
+  }
+
+  usuarios.push(usuario);
+
+  localStorage.setItem("usuarios", JSON.stringify(usuarios));
+}
+
+export const iniciarSesion = (email, password) => {
+  const usuarios = obtenerUsuarios();
+
+  for (const usuario of usuarios) {
+      if ( usuario.email === email && usuario.password === password) {
+          localStorage.setItem("usuarioActual", usuario.name);
+          return usuario;
+      }
+  }
+
+  return null;
+}
+
+export const obtenerUsuarioActual = () => {
+  const email = localStorage.getItem("usuarioActual");
+  return email;
+}
+
+export const cerrarSesion = () => {
+  localStorage.removeItem("usuarioActual");
 }

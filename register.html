@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="./register/styles.css" />
     <title>Register</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +26,7 @@
         <div class="caja">
             <div class="caja__imagen"></div>
             <div class="caja__texto">
-                <form class="register" action="../main page/main.html" method="get">
+                <form class="register" method="post" id="registro">
                     <div class="texto__inicio">
                         <h1>Create an account</h1>
                         <h4>Create your account, it takes less than a minute! <br>
@@ -40,12 +40,11 @@
                     <div class="caja__inputbox">
                         <label for="email">E-mail Address</label>
                         <input class="inputbox__input" type="email" name="email" required
-                            placeholder="examples@gmail.com" />
+                        id="email" placeholder="examples@gmail.com" />
                     </div>
                     <div class="caja__inputbox">
                         <label for="password">Password</label>
-                        <input class="inputbox__input" type="password" name="password" required
-                            placeholder="Create your password" />
+                        <input class="inputbox__input" type="password" name="password" required id="password"                        placeholder="Create your password" />
                     </div>
                     <div class="register__submit"><a href="#">
 
@@ -62,7 +61,10 @@
         </div>
     </section>
 
-
+    <footer>
+        <div class="barra-inferior"></div>
+        <script type="module" src="./register/main.js"></script>
+    </footer>
 </body>
 
 </html>
