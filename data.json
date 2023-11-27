@@ -57,12 +57,12 @@
     {
       "name": "Laura Palacio",
       "role": "Creator",
-      "url": "./images/foto-lau.jpeg"
+      "url": "./Landing/images/foto-lau.jpeg"
     },
     {
       "name": "Maria José Rodriguez",
       "role": "Creator",
-      "url": "./images/foto-majo.jpeg"
+      "url": "./Landing/images/foto-majo.jpeg"
     }
   ],
   "personajes": [
