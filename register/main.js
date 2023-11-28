@@ -4,7 +4,7 @@ const render = () => {
     const usuarioActual = obtenerUsuarioActual();
 
     if(usuarioActual !== null) {
-        window.location.href = "cayendo.html";
+        window.location.href = "landing.html";
         return;
     }
     

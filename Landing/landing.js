@@ -5,9 +5,10 @@ const render = async () => {
     const data = await obtenerUrl();
     console.log(data);
 
+//Carrusel
     const images = data.images;
     const contenedor = document.querySelector(".center-images__images-container");
-
+//Equipo
     const colaboradores = data.team;
     const contenedorAboutUs = document.querySelector(".about-us__background-container");
 

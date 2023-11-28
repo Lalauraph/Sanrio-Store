@@ -122,7 +122,7 @@ export class Personaje {
       icon.classList.toggle("bxs-heart"); // Actualizar la clase CSS del botón
       icon.classList.toggle("bx-heart"); // Actualizar la clase CSS del botón
 
-      // Agregar lógica para guardar el estado del personaje en el localstorage
+    // Agregar lógica para guardar el estado del personaje en el localstorage
       const usuarioActual = obtenerUsuarioActual();
       const favoritos = obtenerFavoritos(usuarioActual);
       const index = favoritos.findIndex(personaje => personaje.name === this.name);
