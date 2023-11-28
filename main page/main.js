@@ -18,8 +18,7 @@ const render = async () => {
        console.log(personajeObj);
 
     }
-    
-    
+
    
 }
 window.onload = render;

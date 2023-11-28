@@ -16,12 +16,7 @@ const render = () => {
         const name = e.target.username.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
-       /*  const confirmPassword = e.target.confirmPassword.value; */
-
-       /*  if (password !== confirmPassword) {
-            alert('Las contraseñas no coinciden');
-            return;
-        } */
+       
         console.log(name);
         if(usuarioExiste(email) === true) {
             alert('El usuario ya existe');
