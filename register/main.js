@@ -13,7 +13,7 @@ const render = () => {
     formulario.addEventListener('submit', (e) => {
         e.preventDefault();
 
-        const name = e.target.name.value;
+        const name = e.target.username.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
        /*  const confirmPassword = e.target.confirmPassword.value; */
@@ -22,11 +22,11 @@ const render = () => {
             alert('Las contraseñas no coinciden');
             return;
         } */
-
-        /* if(usuarioExiste(email) === true) {
+        console.log(name);
+        if(usuarioExiste(email) === true) {
             alert('El usuario ya existe');
             return;
-        } */
+        }
 
         registrarUsuario(name, email, password);
 

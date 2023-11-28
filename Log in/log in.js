@@ -1,10 +1,10 @@
-import { iniciarSesion, obtenerUsuarioActual } from "./utils.js";
+import { iniciarSesion, obtenerUsuarioActual } from "../utils.js";
 
 const render = () => {
     const usuarioActual = obtenerUsuarioActual();
 
     if(usuarioActual !== null) {
-        window.location.href = "cayendo.html";
+        window.location.href = "main.html";
         return;
     }
 
@@ -23,8 +23,10 @@ const render = () => {
             console.log(usuario);
             return;
         }
+        console.log("estoy enviando a main" );
+        window.location.href = "main.html";
+        console.log("estoy enviando" );
 
-        window.location.href = "landing.html";
     });
 }
 

@@ -70,7 +70,7 @@
       "name": "My Melody",
       "description": "My Melody loves to bake cookies with her mom! And also, she plays the flute. Her cutepink hood was handmade!",
       "image": "./main page/fotos/Nueva carpeta/mymelody.png",
-      "fav": false
+      "fav": true
     },
     {
       "name": "Hello Kitty",
